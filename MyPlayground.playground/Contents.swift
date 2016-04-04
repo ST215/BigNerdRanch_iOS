@@ -42,3 +42,9 @@ let easyPi = 3.14
 let floatFromDouble = Float(easyPi)
 let floatingPr: Float = 3.14
 
+let countingUp3 = ["one", "two"]
+let secondElement2 = countingUp3[1]
+countingUp3.count
+
+let emptyString2 = ""
+emptyString2.isEmpty
