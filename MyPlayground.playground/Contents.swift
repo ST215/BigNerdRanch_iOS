@@ -23,3 +23,22 @@ let nameNyParkingSpace = [13: "Alice", 27: "Bob"]
 let countingUp2 = ["one", "two"]
 let secondElement = countingUp2[1]
 
+let emptyString = String()
+let emptyArrayOfInts = [Int]()
+let emptySetOfFloats = Set<Float>()
+
+let defaultNumber = Int()
+let defaultBool = Bool()
+
+let number2 = 42
+let meaningOfLife = String(number)
+
+let availableRooms = Set([205, 411, 412])
+
+let defaultFloat = Float()
+let floatFromLiteral = Float(3.14)
+
+let easyPi = 3.14
+let floatFromDouble = Float(easyPi)
+let floatingPr: Float = 3.14
+
