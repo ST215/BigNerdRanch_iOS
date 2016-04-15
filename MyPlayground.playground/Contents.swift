@@ -76,6 +76,13 @@ if let r1 = reading1,
     let errorString = "Instrument reported a reading that was nil."
 }
 
+let nameByParkingSpace = [13: "Alice", 27: "Bob"]
+//let space13Assignee: String? = nameByParkingSpace[13]
+let space42Assignee: String? = nameByParkingSpace[42]
+
+if let space13Assignee = nameByParkingSpace[13] {
+    print("Key 13 is assigned in the dictionary!")
+}
 
 
 
