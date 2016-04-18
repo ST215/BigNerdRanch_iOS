@@ -107,3 +107,21 @@ for (space, name) in nameByParkingSpace {
     let permit = "Space \(space)" \(name)"
 }
 
+enum PieType Int {
+    case Apple
+    case Cherry
+    case Pecan
+}
+
+let favoritePie = PieType.Apple
+
+let name: String
+switch favoritePie {
+case .Apple:
+    name = "Apple"
+case .Cherry:
+    name = "Cherry"
+case .Pecan:
+    name = "Pecan"
+}
+
