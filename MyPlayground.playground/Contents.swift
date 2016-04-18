@@ -84,6 +84,26 @@ if let space13Assignee = nameByParkingSpace[13] {
     print("Key 13 is assigned in the dictionary!")
 }
 
+for var i = 0; i < countingUp.count; ++i {
+    let string = countingUp[i]
+    // Use 'string'
+}
 
+let range = 0..< countingUp.count
+for i in range {
+    let string = countingUp[i]
+    // Use 'string'
+}
 
+for string in countingUp {
+    // Use 'string'
+}
+
+for (i, string) in countingUp.enumerate() {
+    // (0, "one"), (1, "two")
+}
+
+for (space, name) in nameByParkingSpace {
+    let permit = "Space \(space)" \(name)"
+}
 
